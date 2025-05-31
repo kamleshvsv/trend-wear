@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+@media screen and (max-width: 639px) {
+  .mobile-top {
+    position: relative;
+    top: -108px;
+  }
+  .footer-layout{
+    background: #461b6f;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+}
