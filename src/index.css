@@ -15,5 +15,9 @@
     background: #461b6f;
     padding: 5px 10px;
     border-radius: 15px;
-}
+  }
+  .mobile-left-top {
+    left: 34% !important;
+    top:  34% !important;
+  }
 }

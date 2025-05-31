@@ -157,8 +157,11 @@ function App() {
             rotation={state.currentRotation}
             isSpinning={state.isSpinning}
           />
+          {/* <div className="relative top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+  <SpinButton onClick={spinWheel} disabled={state.isSpinning} />
+</div> */}
 
-          <div className="absolute top-[38%] left-[38%] transform -translate-x-1/2 -translate-y-1/2">
+          <div className="absolute top-[37%] left-[37%] mobile-left-top transform -translate-x-1/2 -translate-y-1/2">
             <SpinButton onClick={spinWheel} disabled={state.isSpinning} />
           </div>
         </motion.div>

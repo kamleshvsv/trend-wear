@@ -9,7 +9,7 @@ interface SpinButtonProps {
 const SpinButton: React.FC<SpinButtonProps> = ({ onClick, disabled }) => {
   return (
     <motion.button
-      className="absolute z-20 flex items-center justify-center w-24 h-24 text-white font-bold text-2xl bg-gradient-to-br from-blue-400 to-indigo-500 rounded-full shadow-lg cursor-pointer focus:outline-none disabled:opacity-70 disabled:cursor-not-allowed"
+      className="absolute z-20 flex items-center justify-center w-28 h-28 text-white font-bold text-2xl bg-gradient-to-br from-blue-400 to-indigo-500 rounded-full shadow-lg cursor-pointer focus:outline-none disabled:opacity-70 disabled:cursor-not-allowed"
       whileHover={{ scale: disabled ? 1 : 1.05 }}
       whileTap={{ scale: disabled ? 1 : 0.95 }}
       onClick={onClick}
